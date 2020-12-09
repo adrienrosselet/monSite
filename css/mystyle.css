@@ -1,0 +1,38 @@
+@font-face{
+    font-family: customAdri;
+    src: url(../font/Glyphter.woff);
+}
+@font-face{
+    font-family: ISO16;
+    src: url(../font/TGL\ 0-16.ttf);
+}
+body{
+    font-family: ISO16, sans-serif;
+    width: 1920px;
+    margin: 0 auto;
+    
+  }
+h1{
+    font-family: customAdri;
+    cursor: url('../img/cursorArrow.svg'), auto;
+}
+header{
+    padding: 40px;
+    background-color: rgba(240, 245, 245, 0.7);
+    background-size: cover;
+    width: 1920px;
+    min-height: 1025px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+  }
+.header-nav-a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: rgb(71, 42, 42);
+    font-family: ISO16;
+    font-size: 14px;
+    font-weight: 300;
+    
+  }
