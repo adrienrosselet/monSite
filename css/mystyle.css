@@ -10,11 +10,17 @@ body{
     font-family: ISO16, sans-serif;
     width: 1920px;
     margin: 0 auto;
-    
+    cursor: url('../img/cursorArrow.svg') 0 0, auto;
   }
 h1{
     font-family: customAdri;
-    cursor: url('../img/cursorArrow.svg'), auto;
+    
+    /* cursor: url('../img/arrowCur.png'), auto; */
+    /* cursor: url('../img/HammerPure.svg') 0 0, auto; */
+    /* cursor: url('../img/cursorArrow2.svg') 0 0, auto; */
+    /* cursor: url('../img/cursorHandLink.svg') 0 0, auto; */
+    /* cursor: url('../img/cursorScrewdriver.svg') 0 0, auto; */
+    /* cursor: url('../img/cursorHammer.svg') 0 0, auto; */
 }
 header{
     padding: 40px;
@@ -34,5 +40,15 @@ header{
     font-family: ISO16;
     font-size: 14px;
     font-weight: 300;
-    
   }
+.header-nav-a:hover{
+  color: rgb(116, 142, 146);
+  cursor: url('../img/cursorScrewdriver.svg') 0 0, auto;
+}
+.footer{
+  background-color: rgb(116, 142, 146);
+  text-align: center;
+}
+.insta-logo-path{
+  fill: #ffffff;
+}
