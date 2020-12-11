@@ -26,12 +26,11 @@ header{
     padding: 40px;
     background-color: rgba(240, 245, 245, 0.7);
     background-size: cover;
-    width: 1920px;
-    min-height: 1025px;
+    /* width: 1920px; */
+    min-height: 125px;
     position: relative;
     box-sizing: border-box;
     margin: 0 auto;
-    
   }
 .header-nav-a{
     text-decoration: none;
@@ -48,7 +47,26 @@ header{
 .footer{
   background-color: rgb(116, 142, 146);
   text-align: center;
+  min-height: 50px;
 }
 .insta-logo-path{
   fill: #ffffff;
+}
+.logo-social{
+  margin: 30px;
+}
+.vignettes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1205px;
+  margin: 0px auto;
+}
+.vignettes-fig{
+  margin: 15px;
+  position: relative;
+  background-blend-mode: darken;
+  mix-blend-mode: darken;
+  background-color: rgba(17, 17, 17, 1);
 }
