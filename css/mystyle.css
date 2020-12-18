@@ -22,6 +22,18 @@ h1{
     /* cursor: url('../img/cursorScrewdriver.svg') 0 0, auto; */
     /* cursor: url('../img/cursorHammer.svg') 0 0, auto; */
 }
+h2{
+  font-family: customAdri;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  cursor: url('../img/cursorScrewdriver.svg') 0 0, auto;
+}
 header{
     padding: 40px;
     background-color: rgba(240, 245, 245, 0.7);
@@ -45,7 +57,7 @@ header{
   cursor: url('../img/cursorScrewdriver.svg') 0 0, auto;
 }
 .footer{
-  background-color: rgb(116, 142, 146);
+  background-color:rgba(240, 245, 245, 0.7);
   text-align: center;
   min-height: 50px;
 }
@@ -55,11 +67,14 @@ header{
 .logo-social{
   margin: 30px;
 }
+.logo-social:hover{
+  opacity: 0.5;
+}
 .section-vign{
   text-align: center;
   padding: 80px;
 }
-.vignettes{
+.vignette{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,3 +89,67 @@ header{
   mix-blend-mode: darken;
   background-color: rgba(17, 17, 17, 1);
 }
+.vign-fig-div{
+  width: 306px;
+  height: 255px;
+  overflow: hidden;
+}
+.vign-fig-img{
+  display: block;
+}
+.vignettes-fig:hover .vign-figcap{
+  background-color: rgba(240, 245, 245, 0.9);
+}
+.vign-fig-img:hover{
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.vign-figcap{
+  background-color: rgba(240, 245, 245, 1);
+  padding: 27px;
+  text-align: left;
+  height: 15px;
+  /* width: 306px; */
+}
+.vign-figcap-h2{
+  font-size: 12px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+/* section engrenage */
+.div-engrenage{
+  width: 250px;
+  height: 250px;
+  background-color: rgba(240, 245, 245, 1);
+  display: block;
+  position: relative;
+}
+.eng-grand{
+  /* animation: rotation 6s infinite linear; */
+  position: absolute;
+  top: 38px;
+  left: 43px;
+}
+.eng-petit{
+  /* animation: rotation2 2.5s infinite linear; */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotation2 {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} */
