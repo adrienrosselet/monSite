@@ -36,7 +36,7 @@ a:hover{
   cursor: url('../img/cursorScrewdriver.svg') 0 0, auto;
 }
 header{
-    padding: 40px;
+    padding: 20px;
     background-color: rgba(240, 245, 245, 0.7);
     background-size: cover;
     /* width: 1920px; */
@@ -61,6 +61,16 @@ header{
 .header-nav-a:hover{
   color: rgb(116, 142, 146);
   cursor: url('../img/cursorScrewdriver.svg') 0 0, auto;
+}
+#filter-id{
+  text-align: center;
+  margin: 20px;
+}
+#filter-id select{
+  font-family: ISO16;
+}
+#filter-id select option{
+  font-family: ISO16;
 }
 .footer{
   background-color:rgba(240, 245, 245, 0.7);
@@ -149,8 +159,8 @@ header{
 #eng-grand{
   /* animation: rotation 6s infinite linear; */
   position: absolute;
-  top: 65px;
-  left: 74px;
+  top: 64px;
+  left: 75px;
   z-index: -1;
   opacity: 0.3;
 }
